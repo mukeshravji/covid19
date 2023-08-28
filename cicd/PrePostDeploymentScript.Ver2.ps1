@@ -26,7 +26,7 @@
     Default: @() (An empty array)
     Expliticly stops the triggers form this list if the trigger is in started state even if the trigger payload not changed
         example: "testTrigger", "storageEventsTrigger"
-    The script is not very comprehensive in detecting the trigger changes, so this parameter can be used to stop triggers explicitly if required
+    The script testing is not very comprehensive in detecting the trigger changes, so this parameter can be used to stop triggers explicitly if required
 #>
 param
 (
